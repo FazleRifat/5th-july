@@ -70,10 +70,57 @@
     align-items: center;
     flex-direction: row-reverse;
 }
-.about-header{
+.header-text{
     text-align: center;
     font-size:50px;
 }
-.about-img{
-    width: 240px;
+/* about us done */
+/* our service */
+.header-color{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.service-section{
+    background-color: black;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height:300px;
+    width: 230px;
+    box-shadow: 4px 4px 4px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border:1px solid white;
+}
+.icon{
+    width: 100px;
+}
+.box-description{
+    margin-top: 8px;
+    padding: 5px;
+}
+.box-btn{
+    color:wheat;
+    background-color: gray;
+    margin-top: 7px;
+    padding: 10px;
+}
+/* services done */
+.empty{
+    margin: 10px;
+    padding: 10px;
+}
+/* footer */
+footer{
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
