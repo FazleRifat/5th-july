@@ -4,9 +4,9 @@
 }
 /* navigation bar start here */
 .menu-container{ 
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(49, 48, 48);
     color:white;
-    padding: 20px;
+    padding: 17px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,11 +22,43 @@
 }
 .items{
     margin-right:10px;
-    font-size: 18px;
-    padding: 7px;
+    font-size: 20px;
+    padding-right: 7px;
 }
 .items:hover{
     color: aqua;
     cursor: pointer;
 }
 /* nav bar finish */
+/* banner section */
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/image/background.png),linear-gradient(45deg,#2c2a2a,#292727);
+    color:white;
+}
+.banner-img{
+    width: 330px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px ;
+    border: none;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: tomato;
+    color:black;
+}
