@@ -36,7 +36,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/image/background.png),linear-gradient(45deg,#2c2a2a,#292727);
+    background-image: url(./image/background.png),linear-gradient(45deg,#2c2a2a,#292727);
     color:white;
 }
 .banner-img{
