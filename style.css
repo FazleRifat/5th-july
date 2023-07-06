@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{ 
+    background-color: rgb(37, 37, 37);
+    color:white;
+
+}
+.logo-photo{
+    width: 120px;
+}
