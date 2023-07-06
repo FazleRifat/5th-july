@@ -62,3 +62,18 @@
     background-color: tomato;
     color:black;
 }
+/* banner done */
+/* about us */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-header{
+    text-align: center;
+    font-size:50px;
+}
+.about-img{
+    width: 240px;
+}
