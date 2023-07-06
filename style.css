@@ -2,11 +2,31 @@
     margin: 0px;
     padding: 0px;
 }
+/* navigation bar start here */
 .menu-container{ 
     background-color: rgb(37, 37, 37);
     color:white;
-
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
 }
 .logo-photo{
     width: 120px;
+    padding: 7px;
+    cursor: pointer;
 }
+.menus{
+    display: flex;
+}
+.items{
+    margin-right:10px;
+    font-size: 18px;
+    padding: 7px;
+}
+.items:hover{
+    color: aqua;
+    cursor: pointer;
+}
+/* nav bar finish */
